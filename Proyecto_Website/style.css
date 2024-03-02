@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.cabecera{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: white;
+}
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #C7C7C7;
+}
+.title{
+    background-color: white;
+    padding: 5px;
+    height: 50px;
+}
+.description{
+    background-color: white;
+    padding: 5px;
+    height: 100px;
+}
+.perro{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height: 500px;
+    margin-bottom: 0px;
+}
+.left {
+    float: left; 
+}
+
+.right {
+    float: right; 
+    color: darkgray;
+}
+.image {
+    width: 450px; 
+    height: 350px; 
+    position: relative;
+}
+.image .dog,
+.image .food,
+.image .pingui,
+.image .student {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+.comida{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height: 500px;
+    margin-bottom: 0px;
+}
+.pinguino{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height: 500px;
+    margin-bottom: 0px;
+}
+.estudiando{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height: 500px;
+    margin-bottom: 70px;
+}
